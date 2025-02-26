@@ -22,7 +22,7 @@ return new class extends Migration
             $table->double('harga_jual');
             $table->integer('stok');
             $table->boolean('ditarik')->default(false);
-            $table->foreignId('user_id')->constrained('users')->onDelete('cascade');
+            $table->foreignId('user_id')->nullable()->constrained('users')->onDelete('cascade');
             $table->timestamps();
         });
     }

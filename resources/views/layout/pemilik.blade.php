@@ -43,7 +43,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
-                <a class="nav-link" href="{{ route('dashboard.admin') }}">
+                <a class="nav-link" href="{{ route('dashboard.pemilik') }}">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span>
                 </a>
@@ -61,49 +61,8 @@
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">fitur:</h6>
-                        <a class="collapse-item" href="{{ route('barang.index') }}">Barang</a>
-                        <a class="collapse-item" href="{{ route('produk.index') }}">Produk</a>
-                    </div>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTri"
-                    aria-expanded="true" aria-controls="collapseTri">
-                    <i class="fas fa-money-bill-wave"></i>
-                    <span>Pembelian</span>
-                </a>
-                <div id="collapseTri" class="collapse" aria-labelledby="headingTri" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">fitur:</h6>
-                        <a class="collapse-item" href="#">Laporan Pembelian</a>
-                    </div>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-target="#collapseFour"
-                    aria-expanded="true" aria-controls="collapseFour">
-                    <i class="fas fa-shopping-bag"></i>
-                    <span>Pembelian</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="{{ route('pemasok.index') }}" data-target="#collapseFive"
-                    aria-expanded="true" aria-controls="collapseFive">
-                    <i class="fas fa-industry"></i>
-                    <span>Pemasok</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseSix"
-                    aria-expanded="true" aria-controls="collapseSix">
-                    <i class="fas fa-file-alt"></i>
-                    <span>Laporan</span>
-                </a>
-                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">fitur:</h6>
-                        <a class="collapse-item" href="#">detail penjualan</a>
-                        <a class="collapse-item" href="cards.html">detail pembelian </a>
+                        <a class="collapse-item" href="buttons.html">Barang</a>
+                        <a class="collapse-item" href="cards.html">Produk</a>
                     </div>
                 </div>
             </li>
